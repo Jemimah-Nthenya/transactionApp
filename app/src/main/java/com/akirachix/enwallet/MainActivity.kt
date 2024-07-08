@@ -18,17 +18,14 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun authorsDisplay(){
-        val author1=MyAuthorsBlog("Colan","Blossoms","2025","")
-        val author2=MyAuthorsBlog("Colan","Blossoms","2025","")
-        val author3=MyAuthorsBlog("Colan","Blossoms","2025","")
-        val author4=MyAuthorsBlog("Colan","Blossoms","2025","")
-        val author5=transaction_list("Colan","Blossoms","2025","")
-        val author6=transaction_list("Colan","Blossoms","2025","")
-        val author7=transaction_list("Colan","Blossoms","2025","")
-        val author8=transaction_list("Colan","Blossoms","2025","")
-        val author9=transaction_list("Colan","Blossoms","2025","")
-        val author10=transaction_list("Colan","Blossoms","2025","")
 
-        val authors= listOf(author1,author2,author3,author4,author5,author6,author7,author8,author9,author10)
-        val transactionList=(authors)
+        val author5=transaction_list
+        val author6=transaction_list
+        val author7=transaction_list
+        val author8=transaction_list
+        val author9=transaction_list
+        val author10=transaction_list
+
+
+        val transactionList=(transaction)
         binding.rvRecyclers.adapter=transactionList
